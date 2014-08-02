@@ -1,4 +1,4 @@
-var dummyFunc = require('dummy-func')
+var dummyFunc = new Function
 
 module.exports = function(callback){
 	

@@ -2,9 +2,6 @@
 	"name": "call-once",
 	"version": "0.0.1",
 	"description": "Simply makes a function one time callable only",
-	"keywords": ["once", "function", "call", "util"],
-	"main": "index.js",
-	"dependencies": [
-		"dummy-func"
-	]
+	"keywords": ["call", "function", "once", "util"],
+	"main": "index.js"
 }
