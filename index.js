@@ -10,7 +10,7 @@ module.exports = function(callback){
 	return function(){
 		if(call){
 			call = false
-			callback.apply(this, arguments)
+			return callback.apply(this, arguments)
 		}
 	}
 }
